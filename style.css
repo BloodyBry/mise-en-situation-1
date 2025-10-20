@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.special-btn {
+    background-color: rgb(142, 185, 249);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+} */
+
+/* .overlay {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYKFRxdYXCyZt_R25M0l0iIeR5scEOFHZlpc8u9OgTxrFXOc3-Pao9oAmpyvRDmWm12RBnkIPmO5cO2VwlIcoxfm77ZkIxQqOTxF66kOCh4g8oq1D4Vp26xNa0Xqliv8jsOsfBUCDtH8doz2Rq-AUG4kMMh88mxlR9E6xCavVU3rcf0jU5VF3YYVThsHTLtcuLwnZXh4_QIeX-9hPy6lTJTcz0xLX3-WITTdYMESn1XfVbay2yEy4r1p-CP_5UdkMlG2cjR57_ueY");
+} */
+
+.hero {
+    height: 100vh;
+}
+
+.big-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(142, 185, 249);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.card-about-me {
+    margin: 150px 150px;
+    /* border: 1px solid black; */
+}
+
+.card-about-me h3 {
+    margin-bottom: 15px;
+}
+
+.services {
+    margin: 150px 150px;
+}
+
+.services h2 {
+    padding-bottom: 15px;
+}
+
+.service-title {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.service-p-img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.card-service {
+    width: 100%;
+}
+
+/* .service-image {
+    width: 100%;
+    height: 140px;
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    list-style: none;
+    color: rgb(89, 89, 89);
+}
+
+.footer li {
+    margin: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer-p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    color: rgb(89, 89, 89);
+}
