@@ -37,11 +37,22 @@ footer {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo a{
     cursor: pointer;
     border: none;
     border-radius: 5px;
     padding: 10px;
     font-weight: 700;
+}
+.logo svg{
+  height: 40px;
+  width: 25px;
+  margin-left: 60px;
 }
 
 .navbar ul {
